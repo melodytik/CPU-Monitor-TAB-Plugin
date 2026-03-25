@@ -1,0 +1,7 @@
+name: CPU-Monitor-TAB
+version: 1.0.0
+main: com.cpumonitor.tab.CPUMonitorPlugin
+description: CPU and Memory monitoring for TAB plugin
+api-version: 1.13
+# 使用softdepend而不是depend，这样即使TAB不存在也能正常加载
+softdepend: [TAB]
